@@ -27,12 +27,16 @@ section#login{
     width: 250px;
     border-radius: 25px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.534);
+    transition: width .3s height .3s;
+    transition-timing-function: ease;
 }
 section#login>div#foto{
     background: #10213F url(../imagens/pexels-pixabay-248921.jpg) no-repeat;
     height: 200px;
     background-size: cover;
+    display: block;
 }
 section#login>div#formulario{
     padding: 10px ;
+    display: block;
 }
